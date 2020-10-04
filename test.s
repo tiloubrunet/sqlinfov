@@ -1,5 +1,5 @@
 select 
-	pick 'td:a-size-medium a-color-price priceBlockBuyingPriceString' as Price,
+	pick 'priceblock_ourprice' as Price,
 	pick 'td:nth-child(2)' as time,
 	pick 'td:nth-child(3)' as wind,
 	pick 'td:nth-child(4)' as visibilty,
