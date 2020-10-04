@@ -1,5 +1,5 @@
 select 
-	pick '.content-wrapper a span.part-number',
+	pick '.mpn',
 	pick 'td:nth-child(2)' as time,
 	pick 'td:nth-child(3)' as wind,
 	pick 'td:nth-child(4)' as visibilty,
