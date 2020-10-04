@@ -1,5 +1,5 @@
 select 
-	pick 'td:nth-child(1)' as day,
+	pick 'td[data-field=mpn]' as MPN,
 	pick 'td:nth-child(2)' as time,
 	pick 'td:nth-child(3)' as wind,
 	pick 'td:nth-child(4)' as visibilty,
